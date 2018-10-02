@@ -55,5 +55,5 @@ Gruppengroesse: 1 Person
 
 * Feinentwurf des Konzepts
 * Beschreibung der einzelnen Meilensteine
-* Markübersicht: Welche Systeme/Produkte sind dafür geeignet?
+* Marktübersicht: Welche Systeme/Produkte sind dafür geeignet?
 * Entscheidung & Begründung für ein System/Produkt
