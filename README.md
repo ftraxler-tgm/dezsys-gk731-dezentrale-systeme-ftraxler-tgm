@@ -62,4 +62,32 @@ Gruppengroesse: 1 Person
 * Entscheidung & Begründung für ein System/Produkt
 
 
-##Fragen:
+## Begriffe:
+
+#### Verteilte Systeme:
+Ein Verteiltes System ist eine Menge voneinander unabhängiger Computer, die dem Benutzer wie ein einzelnes, kohärentes System erscheinen
+
+
+
+Quelle:
+https://vowi.fsinf.at/wiki/TU_Wien:Verteilte_Systeme_VO_(G%C3%B6schka)/Fragenkatalog_Wiki
+#### Skalierbarkeit:
+Drei Unterschiedliche Dimensionen(Neumann,1994):
+
+1. Skalierbar in Hinblick auf die Größße das bedeutet, dass man ganz einfach neue Benutzer und Ressourcen hinzugefügt werden können.
+2. Ein System geografisch skalierbar wenn die Benutzer und die Ressourcen weit auseinander liegen
+3. Ein System ist adminstrativ skalierbar, also auch noch einfach zu verwalten wenn es sich über viele unabhängige adminstrativ Organisationen erstreckt.
+
+Beispiel:
+Zum Beispiel wenn ein Server in den USA steht bedeutet Skalierbar das es keine Rolle spielt ob der Benutzer weit entfernt ist oder nicht.
+
+Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+#### Offenheit:
+Ein offenes verteiltes System bietet Dienste nach Stansdardregeln an die die Syntax und die Semantik dieser Dienste beschreiben.
+
+Beispiel:
+Die Standardregeln steuern beispielsweise in einem Computernetzwerk die Bedeutung den Inhalt und das Format gesendeter und empfangener Nachrichten.
+
+Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+
+#### Transparenz:
