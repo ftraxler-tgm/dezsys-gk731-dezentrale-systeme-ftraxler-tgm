@@ -1,3 +1,4 @@
+
 # DEZSYS_GK731_DEZENTRALE_SYSTEME
 
 ## Einfuehrung
@@ -16,13 +17,13 @@ Weiters soll ein Konzept ausgearbeitet werden, um ein dezentrales System in eine
 
 **Problemstellung:**
 
-Zwei Produktionsbetriebe (Mitarbeiteranzahl 50-100 Personen) verwenden jeweils eine eigene Software um Rechnungen/Angebote/Mahnungen zu verwalten. Das Risiko die Rechnungssystem umzustellen wird als zu hoch bewertet, daher wir entschieden, dass ein System benoetigt wird, dass dem jeweils anderen Standort die Suche nach bestimmten Kriterien (Rechnung/Angebot/Mahnung/Kunde) ermöglicht. Sie werden als System Architekt herangezogen, um eine entsprechende "verteilte" Lösung zu konzipieren. 
+Zwei Produktionsbetriebe (Mitarbeiteranzahl 50-100 Personen) verwenden jeweils eine eigene Software um Rechnungen/Angebote/Mahnungen zu verwalten. Das Risiko die Rechnungssystem umzustellen wird als zu hoch bewertet, daher wir entschieden, dass ein System benoetigt wird, dass dem jeweils anderen Standort die Suche nach bestimmten Kriterien (Rechnung/Angebot/Mahnung/Kunde) ermöglicht. Sie werden als System Architekt herangezogen, um eine entsprechende "verteilte" Lösung zu konzipieren.
 
 ## Aufgabenstellung
 
 Bei der Suche nach den Begriffen & Definitionen vergessen Sie bitte nicht die Quellenangaben anzufuehren.
 
-* Finde eine weitere Definition von "Verteilte Systeme" 
+* Finde eine weitere Definition von "Verteilte Systeme"
 
 Beschreibe die folgenden Begriffe UND formuliere mit eigenen Worten ein Beispiel dazu:
 
@@ -39,21 +40,26 @@ Beschreibe die folgenden Begriffe UND formuliere mit eigenen Worten ein Beispiel
 * Nachrichten orientierte Architektur
 * Enterprise Architecture Integration
 * Dokumente und Links
-
+* Cluster
+* Gridsysteme
+* Cloudsysteme
 
 ## Bewertung
 
-Gruppengroesse: 1 Person 
+Gruppengroesse: 1 Person
 
 ### Anforderungen "ueberwiegend erfuellt"
 
 * Definition & Beschreibung der Begriffe
-* Grobentwurf/Skizze zur Einführung eines dezentralen Systems zum Austausch von Rechnungsinformationen 
-* Beschreibung von Gefahren & Risiken des neuen Systems 
+* Grobentwurf/Skizze zur Einführung eines dezentralen Systems zum Austausch von Rechnungsinformationen
+* Beschreibung von Gefahren & Risiken des neuen Systems
 
-### Anforderungen "zur Gaenze erfüllt" 
+### Anforderungen "zur Gaenze erfüllt"
 
 * Feinentwurf des Konzepts
 * Beschreibung der einzelnen Meilensteine
 * Marktübersicht: Welche Systeme/Produkte sind dafür geeignet?
 * Entscheidung & Begründung für ein System/Produkt
+
+
+##Fragen:
