@@ -91,3 +91,49 @@ Die Standardregeln steuern beispielsweise in einem Computernetzwerk die Bedeutun
 Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
 
 #### Transparenz:
+
+Eines der wichtigs Ziel ist es zuverbergen, dass ihre Prozesse und Ressourcen physisch über mehrere Computer verteilt sind. Ein verteiltes System, das in der Lage ist, sich Benutzern und Anwendungen so darzustellen, als sei es nur ein einziges Computersystem, wird als transparent bezeichenet.
+
+Beispiel: Zum Beispiel wenn ein User sich im Web bewegt und der Meinung ist, dass er wenn er auf eine bestimmte Seite geht und sich dort beweget immer auf einem Server ist.
+
+Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+
+#### Interoperabilitaet
+
+Die Interoperabilitaet beschreibt den Grad bis zu dem zwei Implementierungen von Systemen oder Komponenten nebeneinader arbeiten können wobei der Hersteller keine Rolle spielen sollte
+
+Beispiel: In einem Netzwerk sollte sowohl Linux-System, Windows-Systeme als auch Mac-OS-System funktionieren.
+
+Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+
+#### Portabilitaet
+
+Beschreibt in welchem Ausmaß eine Anwendung  die auf dem System A läuft auf dem einem anderen System B läuft ohne etwas zu ändern.
+
+Beispiel:
+
+
+#### Replikation
+
+Bei der Aktualisierung muss eine Kopie erstellt werden und die anderen Kopien ebenfalls aktualisiert werden müssen. Da die Replikate dann nicht mehr identisch sind.
+
+Beispiel: Der allgemeine Aufbau eines logischen Datenspeichers, physisch verteilt  und repliziert für mehrere Prozesse
+
+
+####  Migration
+
+Migration ist eine Art von Transparenz und verhindert, dass eine relevate Ressource verschoben werden kann.
+
+Beispiel:
+
+####  Beschreibung Fehlermodelle
+
+
+####  Lose gekoppelte Systeme
+####  Service orientierte Architektur
+####  Nachrichten orientierte Architektur
+####  Enterprise Architecture Integration
+####  Dokumente und Links
+####  Cluster
+####  Gridsysteme
+####  Cloudsysteme
