@@ -128,13 +128,11 @@ Lose gekoppelt bedeutet, dass die Software und Hardware nur sehr gering voneinan
 
 Bsp: Bei einer großen Berechnung wenn die Berechnung aufgeteilt wird und die einzelnen Ergebnise an den Hauptrechner gesendet werden.
 
-Quelle: (Wikipedia)
 ####  Service orientierte Architektur
 Serviceorientierte Architektur dient dazu Dienste von IT-Systemen zu strukturieren und zu nutzen. Eine besondere Rolle spielt dabei die Orientierung an Geschäftsprozessen, was so viel bedeute, das bestimmte Abfragen eine höhere Priorität haben.
 
 Bsp: Banksysteme
 
-Quelle: (Wikipedia)
 ####  Nachrichten orientierte Architektur
 Nachrichtenorientierte Middleware ist eine asynchronen oder synchronen Kommunikation. Bei der wird oft kein Format festgelegt aber meistens wird XML verwendet.
 
@@ -179,9 +177,15 @@ Beispiel: Google Drive
 #### Quelle:
 
 Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+
 https://www.nomagic.com/getting-started/solutions/enterprise-architecture
+
 https://de.wikipedia.org/wiki/Cloud_Computing
+
 https://de.wikipedia.org/wiki/Lose_Kopplung
+
 https://de.wikipedia.org/wiki/Message_Oriented_Middleware
+
 https://www.nomagic.com/getting-started/solutions/enterprise-architecture
+
 https://vowi.fsinf.at/wiki/TU_Wien:Verteilte_Systeme_VO_(G%C3%B6schka)/Fragenkatalog_Wiki
