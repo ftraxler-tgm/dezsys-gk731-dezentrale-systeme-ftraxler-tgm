@@ -34,10 +34,10 @@ Beschreibe die folgenden Begriffe UND formuliere mit eigenen Worten ein Beispiel
 * Portabilitaet
 * Replikation
 * Migration
-* Beschreibung Fehlermodelle
+* Beschreibung Fehlermodelle Ich
 * Lose gekoppelte Systeme
 * Service orientierte Architektur
-* Nachrichten orientierte Architektur
+* Nachrichten orientierte Architektur Ich
 * Enterprise Architecture Integration
 * Dokumente und Links
 * Cluster
@@ -127,13 +127,41 @@ Migration ist eine Art von Transparenz und verhindert, dass eine relevate Ressou
 Beispiel:
 
 ####  Beschreibung Fehlermodelle
+      Fehler werden in Klassen unterteilt, um die Auswirkungen besser einschätzen zu können.
 
+      Bsp: crash failure: ein server stürtzt ab und gibt keine Rückmeldungen mehr.
 
 ####  Lose gekoppelte Systeme
+Lose gekoppelt bedeutet, dass die Software und Hardware nur sehr gering voneinander abhängen.
+
+
 ####  Service orientierte Architektur
+Serviceorientierte Architektur dient dazu Dienste von IT-Systemen zu strukturieren und zu nutzen. Eine besondere Rolle spielt dabei die Orientierung an Geschäftsprozessen, was so viel bedeute, das bestimmte Abfragen eine höhere Priorität haben.
+
+Bsp: Banksysteme
+
 ####  Nachrichten orientierte Architektur
+      Nachrichtenorientierte Middleware ist eine asynchronen oder synchronen Kommunikation. Bei der wird oft kein Format festgelegt aber meistens wird XML verwendet.
+
+      Bsp: SAP Process Integration
+
 ####  Enterprise Architecture Integration
+
+
 ####  Dokumente und Links
+      Ein Dokument ist handschriftliches oder digitales geschrieben und die dazu etwas mitzuteilen.
+      Ein Link verweist auf etwas.
+
+
 ####  Cluster
+Ein Cluster besteht aus mehrere vernetzten Rechner. Die zur Ressourcenaufteilung und Verfügbarkeit dienen.
+
+Beispiel: Facebook
 ####  Gridsysteme
+Grids sind die Realisierung von Clustern lose gekoppelt sind. Sie sind dazu da rechenintensive Probleme zu lösen.
+  Bsp: Grids werden für fast alle Webdienste verwendet.
 ####  Cloudsysteme
+Ist eine Speicher im Internet auf den mehrere Leute Zugriffen haben. Dient zum Austausch von Daten.
+
+
+Beispiel: Google Drive
