@@ -81,14 +81,12 @@ Drei Unterschiedliche Dimensionen(Neumann,1994):
 Beispiel:
 Zum Beispiel wenn ein Server in den USA steht bedeutet Skalierbar das es keine Rolle spielt ob der Benutzer weit entfernt ist oder nicht.
 
-Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
 #### Offenheit:
 Ein offenes verteiltes System bietet Dienste nach Stansdardregeln an die die Syntax und die Semantik dieser Dienste beschreiben.
 
 Beispiel:
-Die Standardregeln steuern beispielsweise in einem Computernetzwerk die Bedeutung den Inhalt und das Format gesendeter und empfangener Nachrichten.
+Die Standardregeln steuern beispielsweise in einem Computernetzwerk die Bedeutung des Inhalts und das Format gesendeter und empfangener Nachrichten.
 
-Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
 
 #### Transparenz:
 
@@ -96,7 +94,6 @@ Eines der wichtigs Ziel ist es zuverbergen, dass ihre Prozesse und Ressourcen ph
 
 Beispiel: Zum Beispiel wenn ein User sich im Web bewegt und der Meinung ist, dass er wenn er auf eine bestimmte Seite geht und sich dort beweget immer auf einem Server ist.
 
-Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
 
 #### Interoperabilitaet
 
@@ -104,13 +101,12 @@ Die Interoperabilitaet beschreibt den Grad bis zu dem zwei Implementierungen von
 
 Beispiel: In einem Netzwerk sollte sowohl Linux-System, Windows-Systeme als auch Mac-OS-System funktionieren.
 
-Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
 
 #### Portabilitaet
 
 Beschreibt in welchem Ausmaß eine Anwendung  die auf dem System A läuft auf dem einem anderen System B läuft ohne etwas zu ändern.
 
-Beispiel:
+Beispiel: Tox
 
 
 #### Replikation
@@ -118,39 +114,38 @@ Beispiel:
 Bei der Aktualisierung muss eine Kopie erstellt werden und die anderen Kopien ebenfalls aktualisiert werden müssen. Da die Replikate dann nicht mehr identisch sind.
 
 Beispiel: Der allgemeine Aufbau eines logischen Datenspeichers, physisch verteilt  und repliziert für mehrere Prozesse
-
-
 ####  Migration
-
 Migration ist eine Art von Transparenz und verhindert, dass eine relevate Ressource verschoben werden kann.
 
-Beispiel:
-
+Beispiel: Die selbe Ressource auf unterschiedlichen Servern ohne das Benutzer es weiß.
 ####  Beschreibung Fehlermodelle
-      Fehler werden in Klassen unterteilt, um die Auswirkungen besser einschätzen zu können.
+Fehler werden in Klassen eingeteil damit man die Auswirkung einschätzen kann.
 
-      Bsp: crash failure: ein server stürtzt ab und gibt keine Rückmeldungen mehr.
+Bsp: crash failure: Ein server stürtzt ab und gibt keine Rückmeldungen mehr.
 
 ####  Lose gekoppelte Systeme
 Lose gekoppelt bedeutet, dass die Software und Hardware nur sehr gering voneinander abhängen.
 
+Bsp: Bei einer großen Berechnung wenn die Berechnung aufgeteilt wird und die einzelnen Ergebnise an den Hauptrechner gesendet werden.
 
+Quelle: (Wikipedia)
 ####  Service orientierte Architektur
 Serviceorientierte Architektur dient dazu Dienste von IT-Systemen zu strukturieren und zu nutzen. Eine besondere Rolle spielt dabei die Orientierung an Geschäftsprozessen, was so viel bedeute, das bestimmte Abfragen eine höhere Priorität haben.
 
 Bsp: Banksysteme
 
+Quelle: (Wikipedia)
 ####  Nachrichten orientierte Architektur
-      Nachrichtenorientierte Middleware ist eine asynchronen oder synchronen Kommunikation. Bei der wird oft kein Format festgelegt aber meistens wird XML verwendet.
+Nachrichtenorientierte Middleware ist eine asynchronen oder synchronen Kommunikation. Bei der wird oft kein Format festgelegt aber meistens wird XML verwendet.
 
-      Bsp: SAP Process Integration
-
+Bsp: SAP Process Integration
 ####  Enterprise Architecture Integration
+Moderne Unternehmen basieren auf komplexen Geschäftssystemen, die von IT-Systemen unterstützt werden. Diese integrieren mehrere Technologien und Standards. Die Modellierung dient dazu die Architektur des Unternehmens zu erfassen, zu kommunizieren und zu verbessern.
 
-
+Bsp: SAP
 ####  Dokumente und Links
-      Ein Dokument ist handschriftliches oder digitales geschrieben und die dazu etwas mitzuteilen.
-      Ein Link verweist auf etwas.
+Ein Dokument ist etwas handschriftliches oder digitales geschrieben und etwas mitzuteilen.
+Ein Link verweist auf etwas.
 
 
 ####  Cluster
@@ -158,10 +153,34 @@ Ein Cluster besteht aus mehrere vernetzten Rechner. Die zur Ressourcenaufteilung
 
 Beispiel: Facebook
 ####  Gridsysteme
-Grids sind die Realisierung von Clustern lose gekoppelt sind. Sie sind dazu da rechenintensive Probleme zu lösen.
-  Bsp: Grids werden für fast alle Webdienste verwendet.
+Grids sind Clustern die lose gekoppelt sind. Sie sind dazu da rechenintensive Probleme zu lösen.
+
+Bsp: Webdienste
 ####  Cloudsysteme
 Ist eine Speicher im Internet auf den mehrere Leute Zugriffen haben. Dient zum Austausch von Daten.
 
-
 Beispiel: Google Drive
+
+#### Grobentwurf/Skizze zur Einführung eines dezentralen Systems zum Austausch von Rechnungsinformationen
+![Skizze](bild.jpeg)
+#### Gefahren und Risiken:
+* Ausfall des Netzwerks
+* Übersprechen
+* Ausfall eines Servers
+* Ressource gehen verloren
+* Hauptserver Rolle geht verloren
+* Wenn ein Server ausfällt ist ein ganzer Netzwerkabschnitt offline
+* Inkonsistenz
+
+
+
+
+#### Quelle:
+
+Quelle: (Verteilte Systeme Buch) Autor (Andrew S. Tanenbaum, Maarten van Steen)
+https://www.nomagic.com/getting-started/solutions/enterprise-architecture
+https://de.wikipedia.org/wiki/Cloud_Computing
+https://de.wikipedia.org/wiki/Lose_Kopplung
+https://de.wikipedia.org/wiki/Message_Oriented_Middleware
+https://www.nomagic.com/getting-started/solutions/enterprise-architecture
+https://vowi.fsinf.at/wiki/TU_Wien:Verteilte_Systeme_VO_(G%C3%B6schka)/Fragenkatalog_Wiki
