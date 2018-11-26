@@ -171,7 +171,8 @@ Beispiel: Google Drive
 * Hauptserver Rolle geht verloren
 * Wenn ein Server ausfällt ist ein ganzer Netzwerkabschnitt offline
 * Inkonsistenz
-
+* Syncronisation
+* Timeouts
 
 
 
